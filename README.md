@@ -21,7 +21,7 @@ To run the blog locally:
 
 - **Jekyll**: Static site generator
 - **GitHub Pages**: Hosting platform
-- **Minima**: Default Jekyll theme
+- **Minimal Mistakes**: Jekyll theme loaded from its supported remote-theme repository
 - **GitHub Actions**: Automated deployment
 
 ## Adding Posts

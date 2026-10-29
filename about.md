@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: single
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 This is a personal blog built with Jekyll and hosted on GitHub Pages.

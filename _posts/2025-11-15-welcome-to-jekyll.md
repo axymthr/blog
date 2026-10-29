@@ -1,8 +1,14 @@
 ---
-layout: post
+layout: single
 title:  "Welcome to Jekyll!"
 date:   2025-11-15 10:41:00 +0000
-categories: jekyll update
+categories:
+  - jekyll
+  - update
+tags:
+  - jekyll
+  - github-pages
+  - minimal-mistakes
 ---
 
 Welcome to my new Jekyll blog hosted on GitHub Pages!
