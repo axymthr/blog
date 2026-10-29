@@ -1,5 +1,7 @@
 ---
 layout: home
+author_profile: true
+title: "Welcome"
 ---
 
 Welcome to my blog! This is a personal blog hosted on GitHub Pages using Jekyll.

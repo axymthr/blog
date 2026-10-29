@@ -1,24 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-
 title: My Blog
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A personal blog hosted on GitHub Pages using Jekyll.
-  Write an awesome description for your new site here.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://axymthr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Social media usernames (optional)
 twitter_username: axymthr
 github_username:  axymthr
 
-# Build settings
-theme: minima
+# Minimal Mistakes remote theme
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+
+minimal_mistakes_skin: "default"
+search: false
+breadcrumbs: false
+words_per_minute: 200
+
+author:
+  name: "Axymthr"
+  bio: "Writer and developer."
+  location: "Online"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/axymthr"
+
+header:
+  overlay_color: "#000"
+
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Exclude from processing.
 exclude:
